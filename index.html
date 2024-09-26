@@ -276,10 +276,158 @@
             </tbody>
         </table>
 
-        <h2 id="table">HTML Table <a href="#top">(top)</a></h2>
-        <table border="1">
-            <thead> 
-            </thead>
+        <h2 id="table">HTML Table <a href="#top"> (top)</a></h2>
+            <table border="1">
+                <tr>
+                    <th>Description</th>
+                    <th>Markup</th>
+                    <th>Example</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>Table</td>
+                    <td>&lt;table&gt;&lt;/table&gt;</td>
+                    <td rowspan="3">
+                        &lt;table border=&quot;1&quot;&gt;<br>
+                        
+                        <p style="margin-left:15px"> 
+                            &lt;tr&gt;
+                        </p>
+
+                        <p style="margin-left: 25px;">
+                            &lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+                        </p>
+                        
+                        <p style="margin-left:15px"> 
+                            &lt;/tr&gt;
+                        </p>
+                        
+                        <p style="margin-left:15px"> 
+                            &lt;tr&gt;
+                        </p>
+                        <p style="margin-left: 25px;">
+                            &lt;td&gt;Row 2, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 2, Column 2&lt;/td&gt;
+                        </p>
+                        
+                        <p style="margin-left:15px"> 
+                            &lt;tr&gt;
+                        </p>
+
+                        &lt;/table&gt;
+                    </td>
+                    <td rowspan="3">
+                        <table border="1">
+                            <tr>
+                                <td>Row 1, Column 1</td>
+                                <td>Row 1, Column 2</td>
+                            </tr>
+                            <tr>
+                                <td>Row 2, Column 1</td>
+                                <td>Row 2, Column 2</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Table Row</td>
+                    <td>&lt;tr&gt;&lt;/tr&gt;</td>
+                </tr>
+                <tr>
+                    <td>Table Data</td>
+                    <td>&lt;td&gt;&lt;/td&gt;</td>
+                </tr>
+                <tr>
+                    <td>Table Head</td>
+                    <td>&lt;th&gt;&lt;/th&gt;</td>
+                    <td rowspan="3">&lt;table border ="1"&gt;
+                        <p style="margin-left:30px">
+                            &lt;thead&gt;</p>
+                        <p style="margin-left:50px"> 
+                                &lt;tr&gt;
+                        </p>
+                        <p style="margin-left:70px">
+                            &lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+                        </p>
+                        <p style="margin-left:50px"> 
+                            &lt;/tr&gt;
+                        </p>
+                        <p style="margin-left:30px">
+                            &lt;/thead&gt;
+                        </p>
+                        <p style="margin-left:30px">
+                            &lt;tbody&gt;
+                        </p>
+                        <p style="margin-left:50px">
+                            &lt;tr&gt;
+                        </p>
+                        <p style="margin-left:70px">
+                            &lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+                        </p>
+                        <p style="margin-left:50px"> 
+                            &lt;/tr&gt;
+                        </p>
+                        <p style="margin-left:50px">
+                            &lt;tr&gt;
+                        </p>
+                        <p style="margin-left: 70px;">
+                            &lt;td&gt;Row 2, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 2, Column 2&lt;/td&gt;
+                        </p>
+                        <p style="margin-left:50px">
+                            &lt;/tr&gt;
+                        </p>
+                        <p style="margin-left: 30px;">&lt;/tbody&gt;</p>
+                        <p style="margin-left: 30px;">
+                            &lt;tfoot&gt;
+                        </p>
+                        <p style="margin-left:50px">
+                            &lt;tr&gt;
+                        </p>
+                        <p style="margin-left: 70px;">
+                            &lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                            &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+                        </p>
+                        <p style="margin-left:50px">
+                            &lt;/tr&gt; 
+                        </p>
+                        <p style="margin-left:30px">
+                            &lt;/tfoot&gt;  
+                        </p>
+                        &lt;table&gt;
+                    <td rowspan="3">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Column 1</th>
+                                    <th>Column 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr>
+                                <tr><td>Row 2 Column 1</td><td>Row 2 Column 2</td></tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Column 1 Footer</td>
+                                    <td>Column 2 Footer</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Table Body</td>
+                    <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+                </tr>
+                <tr>
+                    <td>Table Footer</td>
+                    <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                </tr>
+            </table>
     
         <h2 id="forms">HTML Form Elements <a href="#top">(top)</a></h2>
         <table border="1">
@@ -365,13 +513,8 @@
                     <td>&lt;textarea name="name"&gt;Textarea here&lt;/textarea&gt;</td>
                     <td><textarea name="name">Textarea here</textarea></td>
                 </tr>
-
-
-
-
             </tbody>
-
-
-
     </body>
 </html>
+    
+
