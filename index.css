@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav {
+    height: 100%; 
+    width: 260px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #0f0f0f; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    border: 2px solid #555;
+}
+
+.nav h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.sidenav ul {
+    list-style: none;
+    
+}
+  
+.sidenav li {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.sidenav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.sidenav a:hover{
+    background-color: #527a7a;
+    transition: ease-in-out 0.5s;
+}
+
+
+.link{
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: rgb(0, 83, 156);
+}
+
+
+body{
+    padding-left: 17rem;
+    padding-top: 2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,108,96,1) 50%, rgba(15,15,15,1) 100%);
+    color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 20px;
+}
+
+td{
+    padding: 30px;
+}
+
+.head{
+    padding-bottom: 20px;   
+}
+
+.head h2{
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.typo{
+    padding-bottom: 20px;   
+}
+   
+.typo h2{
+    padding: 15px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.formatt{
+    padding-bottom: 20px;   
+}
+   
+.formatt h2{
+    padding: 15px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.med{
+    padding-bottom: 20px;   
+}
+   
+.med h2{
+    padding: 15px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.tbl{
+    padding-bottom: 20px;   
+}
+   
+.tbl h2{
+    padding: 15px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.form{
+    padding-bottom: 20px;   
+}
+   
+.form h2{
+    padding: 15px 0px 20px 0px;
+    font-size: 30px;
+}
+
